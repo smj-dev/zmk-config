@@ -64,20 +64,20 @@
             //                    | GUI |     | SPC |               | ENT |     | ALT |
 
             bindings = <
-&trans     &trans  &kp TILDE  &kp CARET  &kp DOUBLE_QUOTES  &kp POUND  &kp LCTRL  &kp RCTRL  &kp ASTERISK   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION   &kp QUESTION       &kp GRAVE
-&kp LCTRL  &trans  &trans     &trans     &trans             &trans     &kp LALT   &kp RALT   &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT
-&kp LSHFT  &trans  &trans     &trans     &trans             &trans                           &kp HASH       &kp LESS_THAN         &kp GREATER_THAN       &kp PIPE          &kp SLASH          &kp BACKSLASH
-                              &kp LGUI   &mo 4              &kp SPACE                        &kp AT         &kp DOLLAR            &kp PERCENT
+&trans     &trans  &kp TILDE  &kp CARET  &kp DOUBLE_QUOTES  &kp POUND  &kp LCTRL  &kp RCTRL  &kp LS(APOS)  &kp RA(LEFT_BRACE)        &kp RA(RIGHT_BRACE)        &kp LS(EXCLAMATION)  &kp RS(PLUS)           &kp EQUAL
+&kp LCTRL  &trans  &trans     &trans     &trans             &trans     &kp LALT   &kp RALT   &kp LS(N7)    &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp RA(N8)           &kp RA(RIGHT_BRACKET)  &kp APOSTROPHE
+&kp LSHFT  &trans  &trans     &trans     &trans             &trans                           &kp LS(N3)    &kp LESS_THAN             &kp LS(LESS_THAN)          &kp RA(PIPE)         &kp LS(N7)             &kp RA(KP_EQUAL)
+                              &kp LGUI   &mo 4              &kp SPACE                        &kp AT        &kp DOLLAR                &kp PERCENT
             >;
         };
 
         num {
             display-name = "EXTRA 1";
             bindings = <
-&trans     &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &trans
-&trans     &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL  &trans
-&kp LCTRL  &kt LEFT_WIN  &kp LEFT_ALT  &trans  &trans  &trans                  &trans  &kp N7        &kp N8        &kp N9        &kp MINUS  &kp RCTRL
-                                       &trans  &trans  &trans                  &kp N0  &trans        &trans
+&trans     &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &trans
+&trans     &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL  &trans
+&kp LCTRL  &kt LEFT_WIN  &kp LEFT_ALT  &trans  &trans  &trans                  &trans        &kp N7        &kp N8        &kp N9        &kp MINUS  &kp RCTRL
+                                       &trans  &trans  &trans                  &kp LEFT_WIN  &kp N0        &trans
             >;
         };
 
