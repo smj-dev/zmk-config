@@ -64,30 +64,30 @@
         NAV {
             display-name = "NAVIGATION";
             bindings = <
-&kp TAB    &kp LG(N1)   &kp LG(N2)  &kp LG(N3)       &kp LG(N4)    &kp LG(N5)  &kp LCTRL   &kp RCTRL  &kp HOME      &kp PAGE_DOWN  &kp PG_UP   &kp END        &kp LC(LG(LEFT))  &kp LG(LC(RIGHT))
-&kp LC(A)  &kp LS(TAB)  &kp TAB     &kp LS(LA(TAB))  &kp LA(TAB)   &kp LA(F4)  &kp LA(F4)  &kp RALT   &kp LEFT      &kp DOWN       &kp UP      &kp RIGHT      &kp LC(TAB)       &kp LC(LS(TAB))
-&kp LSHFT  &kp LG(TAB)  &kp LG(D)   &kp LG(SV_R)     &kp LG(SV_E)  &kp LG(L)                          &kp LG(LEFT)  &kp LG(DOWN)   &kp LG(UP)  &kp LG(RIGHT)  &trans            &kp CAPS
-                                    &trans           &trans        &trans                             &trans        &trans         &trans
+&trans  &kp LG(N1)   &kp LG(N2)  &kp LG(N3)       &kp LG(N4)    &kp LG(N5)  &kp LCTRL   &kp RCTRL  &kp HOME      &kp PAGE_DOWN  &kp PG_UP   &kp END        &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))
+&trans  &kp LS(TAB)  &kp TAB     &kp LA(LS(TAB))  &kp LA(TAB)   &trans      &kp LA(F4)  &kp CAPS   &kp LEFT      &kp DOWN       &kp UP      &kp RIGHT      &kp LC(LS(TAB))   &kp LC(TAB)
+&trans  &kp LG(TAB)  &kp LG(D)   &kp LG(SV_R)     &kp LG(SV_E)  &kp LG(L)                          &kp LC(LEFT)  &kp LG(DOWN)   &kp LG(UP)  &kp LC(RIGHT)  &kp LG(LEFT)      &kp LG(RIGHT)
+                                 &trans           &trans        &trans                             &trans        &kp LC(A)      &trans
             >;
         };
 
         sym {
             display-name = "SYMBOL";
             bindings = <
-&trans     &trans  &kp SV_TILDE  &kp SV_CARET  &kp SV_DQT      &kp SV_POUND_SIGN  &kp LCTRL  &kp RCTRL  &kp SV_ASTRK  &kp SV_LBRC  &kp SV_RBRC  &kp SV_EXCL   &kp SV_QMARK  &kp SV_GRAVE
-&kp LCTRL  &trans  &kp AT        &kp DOLLAR    &kp SV_PERCENT  &trans             &kp LALT   &kp RALT   &kp SV_AMPS   &kp SV_LPAR  &kp SV_RPAR  &kp SV_LBKT   &kp SV_RBKT   &kp SV_SQT
-&kp LSHFT  &trans  &trans        &trans        &trans          &trans                                   &kp SV_HASH   &kp SV_LT    &kp SV_GT    &kp SV_SLASH  &kp SV_PIPE   &kp SV_BSLH
-                                 &kp LGUI      &trans          &mo 4                                    &kp SV_AT     &kp SV_DLLR  &kp DEL
+&trans     &trans  &kp SV_TILDE  &kp SV_CARET  &kp SV_DQT      &kp SV_POUND_SIGN  &kp LCTRL  &kp RCTRL  &kp SV_AMPERSAND  &kp SV_LBRC  &kp SV_RBRC  &kp SV_EXCL   &kp SV_QMARK  &kp SV_GRAVE
+&kp LCTRL  &trans  &kp AT        &kp DOLLAR    &kp SV_PERCENT  &trans             &kp LALT   &kp RALT   &kp SV_ASTERISK   &kp SV_LPAR  &kp SV_RPAR  &kp SV_LBKT   &kp SV_RBKT   &kp SV_SQT
+&kp LSHFT  &trans  &trans        &trans        &trans          &trans                                   &kp SV_HASH       &kp SV_LT    &kp SV_GT    &kp SV_SLASH  &kp SV_PIPE   &kp SV_BSLH
+                                 &kp LGUI      &trans          &mo 4                                    &kp SV_AT         &kp SV_DLLR  &kp DEL
             >;
         };
 
         num {
             display-name = "NUMBER";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &kp SV_PLUS   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &kp SV_EQUAL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &kp N7  &kp N8  &kp N9  &kp SV_MINUS  &trans
-                        &trans  &trans  &trans                  &trans  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SV_DOT       &kp N7  &kp N8  &kp N9        &kp SV_PLUS   &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SV_ASTERISK  &kp N4  &kp N5  &kp N6        &kp SV_EQUAL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &kp SV_SLASH     &kp N1  &kp N2  &kp NUMBER_3  &kp SV_MINUS  &trans
+                        &trans  &trans  &trans                  &trans           &kp N0  &trans
             >;
         };
 
