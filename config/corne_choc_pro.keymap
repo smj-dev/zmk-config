@@ -50,16 +50,16 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&lt 2 TAB   &kp Q                        &kp W  &kp E  &kp R                   &kp T  &kp C_MUTE  &kp C_PP  &kp Y      &kp U                    &kp I          &kp O    &kp P                                    &kp SV_A_RING
-&kp ESCAPE  &left_hold_tap LEFT_SHIFT A  &kp S  &kp D  &left_hold_tap LCTRL F  &kp G  &kp C_NEXT  &kp RALT  &kp H      &right_hold_tap RCTRL J  &kp K          &kp L    &right_hold_tap RIGHT_SHIFT SV_O_UMLAUT  &kp SV_A_UMLAUT
-&kp LSHFT   &kp Z                        &kp X  &kp C  &kp V                   &kp B                        &kp N      &kp M                    &kp COMMA      &kp DOT  &kp SV_MINUS                             &kp LSHFT
-                                                &mo 3  &mo 2                   &mo 1                        &kp ENTER  &kp SPACE                &kp BACKSPACE
+&lt 2 TAB   &kp Q                        &kp W  &kp E  &kp R                   &kp T  &kp C_MUTE  &kp LC(N0)  &kp Y      &kp U                    &kp I          &kp O    &kp P                                    &kp SV_A_RING
+&kp ESCAPE  &left_hold_tap LEFT_SHIFT A  &kp S  &kp D  &left_hold_tap LCTRL F  &kp G  &kp C_NEXT  &kp RALT    &kp H      &right_hold_tap RCTRL J  &kp K          &kp L    &right_hold_tap RIGHT_SHIFT SV_O_UMLAUT  &kp SV_A_UMLAUT
+&kp LSHFT   &kp Z                        &kp X  &kp C  &kp V                   &kp B                          &kp N      &kp M                    &kp COMMA      &kp DOT  &kp SV_MINUS                             &kp LSHFT
+                                                &mo 3  &mo 2                   &mo 1                          &kp ENTER  &kp SPACE                &kp BACKSPACE
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_VOL_DN C_VOL_UP>,
                 <&inc_dec_kp C_NEXT C_PREVIOUS>,
-                <&inc_dec_kp PAGE_UP PG_DN>,
+                <&inc_dec_kp LC(SV_PLUS) LC(SV_MINUS)>,
                 <&inc_dec_kp UP DOWN>;
         };
 
@@ -76,10 +76,10 @@
         sym {
             display-name = "SYMBOL";
             bindings = <
-&trans  &trans  &kp SV_TILDE  &kp SV_CARET  &kp SV_DQT      &kp SV_POUND_SIGN  &kp C_STOP      &kp RCTRL  &kp SV_AMPERSAND  &kp SV_LBRC  &kp SV_RBRC    &kp SV_EXCL   &kp SV_QMARK  &kp SV_GRAVE
-&trans  &trans  &kp AT        &kp DOLLAR    &kp SV_PERCENT  &trans             &kp C_PREVIOUS  &kp RALT   &kp SV_ASTERISK   &kp SV_LPAR  &kp SV_RPAR    &kp SV_LBKT   &kp SV_RBKT   &kp SV_SQT
-&trans  &trans  &trans        &trans        &trans          &trans                                        &kp SV_HASH       &kp SV_LT    &kp SV_GT      &kp SV_SLASH  &kp SV_PIPE   &kp SV_BSLH
-                              &kp LGUI      &trans          &mo 4                                         &kp SV_AT         &kp DELETE   &kp SV_DOLLAR
+&trans  &trans           &kp SV_TILDE  &kp SV_CARET  &kp SV_DQT      &kp SV_POUND_SIGN  &kp C_STOP      &kp RCTRL  &kp SV_AMPERSAND  &kp SV_LBRC  &kp SV_RBRC    &kp SV_EXCL   &kp SV_QMARK  &kp SV_GRAVE
+&trans  &kp SV_SECT      &kp AT        &kp DOLLAR    &kp SV_PERCENT  &kp SV_ACUTE       &kp C_PREVIOUS  &kp RALT   &kp SV_ASTERISK   &kp SV_LPAR  &kp SV_RPAR    &kp SV_LBKT   &kp SV_RBKT   &kp SV_SQT
+&trans  &kp SV_ONE_HALF  &kp SV_EURO   &kp SV_MICRO  &kp SV_CURREN   &kp SV_UMLAUT                                 &kp SV_HASH       &kp SV_LT    &kp SV_GT      &kp SV_SLASH  &kp SV_PIPE   &kp SV_BSLH
+                                       &kp LGUI      &trans          &mo 4                                         &kp SV_AT         &kp DELETE   &kp SV_DOLLAR
             >;
         };
 
