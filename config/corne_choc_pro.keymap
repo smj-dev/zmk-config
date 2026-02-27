@@ -76,20 +76,20 @@
         sym {
             display-name = "SYMBOL";
             bindings = <
-&trans     &trans  &kp SV_TILDE  &kp SV_CARET  &kp SV_DQT      &kp SV_POUND_SIGN  &kp LCTRL  &kp RCTRL  &kp SV_AMPERSAND  &kp SV_LBRC  &kp SV_RBRC  &kp SV_EXCL   &kp SV_QMARK  &kp SV_GRAVE
-&kp LCTRL  &trans  &kp AT        &kp DOLLAR    &kp SV_PERCENT  &trans             &kp LALT   &kp RALT   &kp SV_ASTERISK   &kp SV_LPAR  &kp SV_RPAR  &kp SV_LBKT   &kp SV_RBKT   &kp SV_SQT
-&kp LSHFT  &trans  &trans        &trans        &trans          &trans                                   &kp SV_HASH       &kp SV_LT    &kp SV_GT    &kp SV_SLASH  &kp SV_PIPE   &kp SV_BSLH
-                                 &kp LGUI      &trans          &mo 4                                    &kp SV_AT         &kp SV_DLLR  &kp DEL
+&trans  &trans  &kp SV_TILDE  &kp SV_CARET  &kp SV_DQT      &kp SV_POUND_SIGN  &kp LCTRL  &kp RCTRL  &kp SV_AMPERSAND  &kp SV_LBRC  &kp SV_RBRC    &kp SV_EXCL   &kp SV_QMARK  &kp SV_GRAVE
+&trans  &trans  &kp AT        &kp DOLLAR    &kp SV_PERCENT  &trans             &kp LALT   &kp RALT   &kp SV_ASTERISK   &kp SV_LPAR  &kp SV_RPAR    &kp SV_LBKT   &kp SV_RBKT   &kp SV_SQT
+&trans  &trans  &trans        &trans        &trans          &trans                                   &kp SV_HASH       &kp SV_LT    &kp SV_GT      &kp SV_SLASH  &kp SV_PIPE   &kp SV_BSLH
+                              &kp LGUI      &trans          &mo 4                                    &kp SV_AT         &kp DELETE   &kp SV_DOLLAR
             >;
         };
 
         num {
             display-name = "NUMBER";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SV_DOT       &kp N7  &kp N8  &kp N9        &kp SV_PLUS   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SV_ASTERISK  &kp N4  &kp N5  &kp N6        &kp SV_EQUAL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &kp SV_SLASH     &kp N1  &kp N2  &kp NUMBER_3  &kp SV_MINUS  &trans
-                        &trans  &trans  &trans                  &trans           &kp N0  &trans
+&trans  &kp F1  &kp F2   &kp F3  &kp F3   &trans      &trans  &trans  &kp SV_SLASH     &kp N7  &kp N8  &kp N9        &kp SV_PLUS   &trans
+&trans  &kp F9  &kp F11  &kp F5  &kp F10  &kp LS(F5)  &trans  &trans  &kp SV_ASTERISK  &kp N4  &kp N5  &kp N6        &kp SV_EQUAL  &trans
+&trans  &kp F6  &kp F1   &kp F2  &kp F12  &trans                      &kp SV_DOT       &kp N1  &kp N2  &kp NUMBER_3  &kp SV_MINUS  &trans
+                         &trans  &trans   &trans                      &trans           &kp N0  &trans
             >;
         };
 
