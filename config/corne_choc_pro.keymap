@@ -79,10 +79,10 @@
         NAV {
             display-name = "NAVIGATION";
             bindings = <
-&trans      &kp LG(N1)        &kp LG(N2)        &kp LG(N3)         &kp LG(N4)        &kp LG(N5)  &kp LCTRL   &kp RCTRL  &kp HOME      &kp PAGE_DOWN  &kp PG_UP   &kp END        &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))
-&kp C_MUTE  &kp LG(LC(SV_D))  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LA(SV_GRAVE)  &kp LG(V)   &kp LA(F4)  &kp CAPS   &kp LEFT      &kp DOWN       &kp UP      &kp RIGHT      &kp LC(LS(TAB))   &kp LC(TAB)
-&trans      &kp LG(TAB)       &kp LG(D)         &kp LG(SV_R)       &kp LG(SV_E)      &kp LG(L)                          &kp LC(LEFT)  &kp LG(DOWN)   &kp LG(UP)  &kp LC(RIGHT)  &kp LG(LEFT)      &kp LG(RIGHT)
-                                                &trans             &trans            &trans                             &kp LSHIFT    &kp LC(A)      &kp LGUI
+&trans          &kp LG(N1)        &kp LG(N2)        &kp LG(N3)         &kp LG(N4)        &kp LG(N5)  &kp LCTRL   &kp RCTRL  &kp HOME      &kp PAGE_DOWN  &kp PG_UP   &kp END        &kp LG(LS(LEFT))  &kp LG(LS(RIGHT))
+&kp C_MUTE      &kp LG(LC(SV_D))  &kp LC(LG(LEFT))  &kp LC(LG(RIGHT))  &kp LA(SV_GRAVE)  &kp LG(V)   &kp LA(F4)  &kp CAPS   &kp LEFT      &kp DOWN       &kp UP      &kp RIGHT      &kp LC(LS(TAB))   &kp LC(TAB)
+&kp LC(LG(F4))  &kp LG(TAB)       &kp LG(D)         &kp LG(SV_R)       &kp LG(SV_E)      &kp LG(L)                          &kp LC(LEFT)  &kp LG(DOWN)   &kp LG(UP)  &kp LC(RIGHT)  &kp LG(LEFT)      &kp LG(RIGHT)
+                                                    &trans             &trans            &trans                             &kp LSHIFT    &kp LC(A)      &kp LGUI
             >;
         };
 
